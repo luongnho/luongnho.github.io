@@ -1,0 +1,197 @@
+<!Doctype html>
+<html><!-- InstanceBegin template="/Templates/tmp.dwt" codeOutsideHTMLIsLocked="false" --><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Lương Quốc Chương">
+<meta charset="utf-8">
+<!--tiêu đề trang web-->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Liên hệ</title>
+<link rel="shortcut icon" href="images/title-icon.png" />
+<!-- InstanceEndEditable -->
+<!--link css-->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/ihover.min.css">
+<link rel="stylesheet" type="text/css" href="css/animated.css">
+<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/khamphavantay-index.css">
+<!-- javascript -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body id="page-top">
+<!--FB comment-->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1201836483204146',
+      xfbml      : true,
+      version    : 'v2.8'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/vi_VN/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- thanh menu -->
+<nav class="navbar navbar-default">
+  <div class="container"> 
+    <!-- menu trong màn hình điện thoại -->
+    <div class="navbar-header page-scroll">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      	<span class="glyphicon glyphicon-align-justify"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"> <img class="img-responsive" src="images/fingerprint_logo1.png"/> </a>
+    </div>
+    <!-- các thành phần bên phải menu -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li> <a href="index.html">TRANG CHỦ</a> </li>
+        <li> <a href="gioi-thieu.html">GIỚI THIỆU</a> </li>
+        <li> <a href="bai-viet-luoi-1.html">BÀI VIẾT</a> </li>
+        <li> <a href="co-hoi-hop-tac.html">HỢP TÁC</a> </li>
+        <li> <a href="tuyen-dung.html">TUYỂN DỤNG <span class="label label-danger">mới</span></a> </li>
+        <li> <a href="cam-nhan.html">CẢM NHẬN</a> </li>
+        <li> <a href="lien-he.html">LIÊN HỆ</a> </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- /.thanh menu --> 
+<!-- header -->
+<header>
+  <div class="container">
+    <div class="row" style="color:#fff"> 
+      <!-- trái -->
+      <div class="col-xs-6">
+        <div class="left">KHẲNG ĐỊNH NĂNG LỰC<br/>DẪN LỐI THÀNH CÔNG</div>
+      </div>
+      <!-- phải -->
+      <div class="col-lg-5 animated zoomIn" style="padding-top:20px">
+        <img src="images/15439801_384577025229770_2359721508891985924_n.png" alt="..." class="img-responsive img-rounded">
+      </div>
+    </div>
+  </div>
+</header>
+<!-- /.header --> 
+<!-- InstanceBeginEditable name="EditRegion3" -->
+<section id="gioithieu">
+ <!-- contain1 -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2">
+        <h2 class="modal-title">Thông tin liên hệ</h2>
+        <hr>
+      </div>
+  </div>
+  <!-- contain2 -->
+  <div class="container">
+    <div class="row fz18 text-center" style="font-weight:600">
+      <div class="col-md-4">
+         <span class="fa-stack fa-lg mycolor">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-map-marker fa-stack-1x fa-inverse"></i>
+         </span> <small>Địa chỉ</small><br/>160/25/9 Huỳnh Thị Hai, P. Tân Chánh Hiệp<br/>Quận 12, Tp. Hồ Chí Minh
+     </div>
+     <div class="col-md-4">
+     	<span class="fa-stack fa-lg mycolor">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-phone fa-stack-1x fa-inverse"></i>
+        </span> <small>SĐT</small><br/>0968 233 135 <br/> <small>(Từ T2 đến CN: 8h - 22h)</small>
+     </div>
+     <div class="col-md-4">
+     	<span class="fa-stack fa-lg mycolor">
+        	<i class="fa fa-circle fa-stack-2x"></i>
+        	<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+        </span> <small>Email</small><br/>tuvan@khamphavantay.vn
+     </div>
+         
+     </div>
+   </div>
+</section>
+<section>
+	<div class="col-lg-12" id="googleMap" style="width:100%; height:450px">
+</section>
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3sE19NhrTJzc91DZfyPUESs3M8YdusyE&callback=initMap"></script>
+<script>
+	var myCenter = new google.maps.LatLng(10.867442,106.631622);
+
+	function initMap() {
+		var mapProp = {
+		  center:myCenter,
+		  zoom:16,
+		  scrollwheel:false,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+  		};
+
+		var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+		var marker = new google.maps.Marker({
+  			position:myCenter,
+  		});
+
+		marker.setMap(map);
+	}
+
+	google.maps.event.addDomListener(window, 'load', initMap);
+</script>
+<!-- InstanceEndEditable -->
+<!-- footer-->
+<footer>
+  <div class="container" >
+  	<div class="row">
+  		<div class="col-lg-8 col-lg-offset-2 text-center">
+        	<hr>
+  			<img class="img-responsive" src="images/logo-footer.png" style="margin:0 auto"/>
+            <p style="font-size:14px; color:#bdc3c7"><i class="glyphicon glyphicon-copyright-mark"></i> 2016</p>
+  		</div>
+  	</div>
+  </div>
+</footer>
+<!-- /.footer -->
+<!--Back to top-->
+<span id="top-link-block" class="hidden" style="font-size:24px">
+    <a href="#top" onclick="$('html,body').animate({scrollTop:0},'slow');return false;">
+        <span class="fa-stack fa-lg mycolor">
+        	<i class="fa fa-circle fa-stack-2x"></i>
+        	<i class="fa fa-chevron-up fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</span>
+<script src="js/khamphavantay.js"></script>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/578db45a63d0bc0474d68855/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-81640276-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+<!-- InstanceEnd --></html>
