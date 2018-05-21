@@ -1,0 +1,265 @@
+* {box-sizing:border-box}
+body,
+html{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+}
+body{
+	font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro",
+	"Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+hr{
+	margin: 0;
+	padding: 0;
+	width: 960px;
+	border: 0;
+	border-bottom: solid 1px #000;
+}
+.img-pc{
+	display: block;
+}
+.img-smp{
+	display: none;
+}
+#header{
+	width: 1200px;
+	height: auto;
+	position: fixed;
+	top: 0;
+	background-color: #fff;
+	z-index: 9;
+}
+.menu{
+	width: 960px;
+	margin: auto;
+	margin-top: 30px;
+}
+.menu-top{
+	width: 100%;
+}
+.menu-top .logo{
+	text-align: center;
+	margin-top: -32px;
+}
+.menu-top .logo-smp{
+	display: none;
+}
+.menu-top .social-icon{
+	text-align: right;
+}
+.menu-top .menu-icon{
+	float: right;
+	display: none;
+	cursor: pointer;
+}
+.menu-top .menu-icon div{
+	width: 44px;
+    height: 5px;
+    background-color: black;
+    margin: 7px 17px;
+}
+#header nav{
+	text-align: center;
+	margin: 32px 0;
+}
+#header nav ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+#header nav ul li{
+	margin-right: 46px;
+}
+#nav-smp {
+	display: none;
+}
+#nav-smp li{
+	list-style: none;
+	border-top: solid 1px #939598;
+	padding-left: 43px;
+}
+#nav-smp li a img{
+	padding: 12px 0;
+}
+#nav-smp .sub-menu{
+	padding-left: 17px;
+	display: none;
+    background-color: white;
+    font-weight: bold;
+}
+#nav-smp .sub-menu li{
+	border: none;
+}
+nav .sub-menu {
+	background-color: #fff;
+	color: #000;
+ 	display: none;
+ 	position: absolute;
+ 	z-index: 9999;
+ 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+nav .sub-menu{
+	padding: 10px;
+	text-align: left;
+}
+nav .dropdown:hover .sub-menu {
+ 	display: block;
+}
+.banner{
+	margin: auto;
+	max-width: 1200px;
+	height: 500px;
+	margin-top: 270px;
+}
+.banner img{
+	width: 100%;
+}
+.breadcrumb{
+	text-align: right;
+	padding-top: 19px;
+}
+#main{
+	max-width: 960px;
+	padding-top: 90px;
+	margin: auto;
+	height: auto;
+}
+.head-title{
+	text-align: center;
+	padding-bottom: 22px;
+}
+
+.news-content{
+	width: 636px;
+	padding-top: 65px;
+	margin: auto;
+}
+.news-content:after{
+	content: "";
+    display: table;
+    clear: both;
+}
+.news-content .news-img{
+	width: 182px;
+	float: left;
+}
+.news-content .news-info{
+	width: 454px;
+	float: left;
+	padding-left: 20px;
+}
+
+.news-content .news-info span{
+	color: #f00;
+	font-size: 0.8rem;
+}
+.news-content .news-img img{
+	width: 100%;
+}
+.news-more{
+	text-align: center;
+}
+.news-more img{
+	margin-top: 47px;
+	margin-bottom: 54px;
+}
+.mess{
+	width: 100%;
+	height: auto;
+	color: #fff;
+	position: relative;
+}
+.mess .mess-quote{
+	width: 50%;
+	padding: 58px;
+	top: 0;
+	position: absolute;
+}
+.concept:after,
+.access:after{
+	content: "";
+    display: table;
+    clear: both;
+}
+.concept .concept-info{
+	width: 50%;
+	float: left;
+}
+.concept .concept-img{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+#access{
+	width: 1200px;
+	margin-top: 100px;
+	margin-bottom: 63px;
+	padding: 100px 0;
+	background-color: #f4f6f8;
+}
+.access{
+	max-width: 960px;
+	margin: auto;
+}
+.access .access-map{
+	width: 50%;
+	float: left;
+}
+.access .access-info{
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+}
+
+#footer{
+	max-width: 960px;
+	margin: auto;
+	text-align: center;
+	padding-top: 35px;
+	padding-bottom: 75px;
+	border-top: solid 1px #000;
+}
+#footer .lang{
+	font-size: 16px;
+	padding-top: 13px;
+	padding-bottom: 25px;
+}
+#footer .copyright{
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+/*animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.rezie-logo{
+	-webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: width 0.5s;
+}
+

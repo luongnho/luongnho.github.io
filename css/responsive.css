@@ -1,0 +1,112 @@
+/*breakpoint 736px*/
+@media screen and (max-width: 326px) {
+	html, body{
+		width: 100%;
+	}
+	hr{
+		width: 270px;
+	}
+	#header{
+		width: 100%;
+	}
+	#header .menu{
+		width: 100%;
+		margin-top: 10px;
+	}
+	#header .menu .menu-top .logo{
+		margin-top: 0;
+	}
+	#header .menu .menu-top .social-icon{
+		display: none;
+	}
+	#header .menu .menu-top .logo{
+		display: none;
+	}
+	#header .menu .menu-top .logo-smp{
+		display: block;
+		margin: auto;
+		width: 88px;
+	}
+	#header .menu .menu-top .logo-smp img{
+		width: 100%;
+	}
+	#header .menu .menu-top .menu-icon{
+		display: block;
+	}
+	#header nav{
+		display: none;
+	}
+	.slider{
+		margin-top: 84px;
+		width: 100%;
+	}
+	.slide-inner{
+		height: auto;
+	}
+	.slide-inner img{
+		width: 100%;
+	}
+	.prev, .next {
+	  margin-top: -50px;
+	}
+	.dot{
+		width: 6px;
+		height: 6px;
+	}
+	.img-pc{
+		display: none;
+	}
+	.img-smp{
+		display: block;
+	}
+	.head-title{
+		padding-bottom: 6px;
+	}
+	.head-title .long-title{
+		width: 75%;
+	}
+	.banner{
+		margin-top: 85px;
+		height: auto;
+	}
+	.breadcrumb{
+		display: none;
+	}
+	#main{
+		max-width: 270px;
+		padding-top: 25px;
+	}
+	#main .news-content{
+		width: 100%;
+		padding-top: 18px;
+	}
+	#main .news-content .news-img{
+		width: 100%;
+	}
+	#main .news-content .news-info{
+		width: 100%;
+		padding-left: 0;
+	}
+	#main .mess{
+		width: 100%;
+		height: auto;
+		background-color: #000;
+	}
+	#main .mess img{
+		width: 100%;
+	}
+	#main .mess .mess-quote{
+		position: relative;
+		margin-top: -75%;
+		width: 100%;
+		padding:0 16px;
+		font-size: 11px;
+	}
+	#main .mess .name-sign{
+		padding: 30px 90px;
+	}
+	#footer{
+		max-width: 270px;
+	}
+	
+}
