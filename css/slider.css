@@ -1,0 +1,45 @@
+/* Slideshow container */
+.slider {
+  width: 1200px;
+  position: relative;
+  margin-top: 270px;
+}
+
+/* Hide the images by default */
+.slide-inner {
+    width: 100%;
+    display: none;
+    height: 500px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -25px;
+  padding: 6px;
+  transition: 0.6s ease;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 11px;
+  width: 11px;
+  margin: 0 1px;
+  background-color: #d1d2d4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #939598;
+}
