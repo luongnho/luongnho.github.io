@@ -47,8 +47,8 @@
 	.slide-inner img{
 		width: 100%;
 	}
-	.prev, .next {
-	  margin-top: -50px;
+	.prev, .next img{
+		width: 50%;
 	}
 	.dot-bar{
 		margin-top: 5px;

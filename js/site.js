@@ -1,10 +1,12 @@
 /*resize logo when scroll*/
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 150){  
+	if ($(this).scrollTop() > 120){  
 		$('.logo img').css("width","98px");
-		    }
+		$('.logo-smp').css("width","44px");
+	}
 	else{
 		$('.logo img').css("width","196px");
+		$('.logo-smp').css("width","88px");
 	}
 });
 
@@ -24,7 +26,7 @@ $(document).ready(function(){
 		}
 	});
 });
-/*animated menu*/
+/*animated menu-icon*/
 function animateMenu(x) {
     x.classList.toggle("change");
 }

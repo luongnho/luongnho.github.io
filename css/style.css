@@ -113,11 +113,12 @@ hr{
 	content: '';
 	position: absolute;
 	left: 25px;
-	top: 10px;
+	top: 5px;
 	font-weight: bold;
 }
 .accIcon:before{
-	content: 'x';
+	content: '\02DF';
+	font-size: 30px;
 }
 nav .sub-menu {
 	background-color: #fff;
@@ -286,23 +287,25 @@ nav .dropdown:hover .sub-menu {
 }
 
 .rezie-logo{
-	-webkit-transition: width 0.5s;
-	-moz-transition:width 0.5s;
-	-o-transition:width 0.5s;
-    transition: width 0.5s;
+	-webkit-transition: width 0.4s;
+	-moz-transition:width 0.4s;
+	-o-transition:width 0.4s;
+    transition: width 0.4s;
 }
 .change .bar1 {
     -webkit-transform: rotate(-40deg) translate(-10px, 5px);
     -moz-transform: rotate(-40deg) translate(-10px, 5px);
     -o-transform: rotate(-40deg) translate(-10px, 5px);
     transform: rotate(-40deg) translate(-10px, 5px);
+    transition: 0.25s;
 }
 
-.change .bar2 {opacity: 0;}
+.change .bar2 {opacity: 0; transition: 0.25s;}
 
 .change .bar3 {
-    -webkit-transform: rotate(40deg) translate(-5px, 0px);
-    -moz-transform: rotate(40deg) translate(-5px, 0px);
-    -o-transform: rotate(40deg) translate(-5px, 0px);
-    transform: rotate(40deg) translate(-5px, 0px);
+    -webkit-transform: rotate(40deg) translate(-6px, -2px);
+    -moz-transform: rotate(40deg) translate(-6px, -2px);
+    -o-transform: rotate(40deg) translate(-6px, -2px);
+    transform: rotate(40deg) translate(-6px, -2px);
+    transition: 0.25s;
 }
