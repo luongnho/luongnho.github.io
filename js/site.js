@@ -1,12 +1,14 @@
 /*resize logo when scroll*/
 $(window).scroll(function() {
-	if ($(this).scrollTop() > 120){  
-		$('.logo img').css("width","98px").addClass('rezie-logo');;
-		$('.logo-smp').css("width","44px").addClass('rezie-logo');
+	if ($(this).scrollTop() > 270){  
+		$('header').addClass('fixed');
+		$('.logo img').css("width","98px").addClass('resize-logo');
+		$('.logo-smp').css("width","44px").addClass('resize-logo');
 	}
 	else{
-		$('.logo img').css("width","196px").addClass('rezie-logo');;
-		$('.logo-smp').css("width","88px").addClass('rezie-logo');;
+		$('header').removeClass('fixed');
+		$('.logo img').css("width","196px").addClass('resize-logo');
+		$('.logo-smp').css("width","88px").addClass('resize-logo');
 	}
 });
 

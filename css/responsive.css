@@ -38,7 +38,6 @@
 		display: none;
 	}
 	.slider{
-		margin-top: 84px;
 		width: 100%;
 	}
 	.slide-inner{
@@ -47,7 +46,7 @@
 	.slide-inner img{
 		width: 100%;
 	}
-	.prev, .next img{
+	.prev img, .next img{
 		width: 50%;
 	}
 	.dot-bar{
@@ -70,7 +69,6 @@
 		width: 75%;
 	}
 	.banner{
-		margin-top: 85px;
 		height: auto;
 	}
 	.breadcrumb{
