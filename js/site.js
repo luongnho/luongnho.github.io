@@ -1,4 +1,4 @@
-/*resize logo when scroll*/
+/*resize logo when scroll and header position fixed*/
 $(window).scroll(function() {
 	if ($(this).scrollTop() > 270){  
 		$('header').addClass('fixed');
